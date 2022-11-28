@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+
+
+}
+
+
+
+.app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.ibb.co/MkjWhXN/Dise-o-sin-t-tulo-18.png" );
+  background-color: rgb(8, 103, 181);
+
+
+  background-position: center;
+  height: 100vh;
+  position: relative;
+
+
+
+}
+
+.spiner {
+  border: 20px double rgb(255, 255, 255);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-left-color: #09f;
+  animation: spin 1s ease infinite;
+  position: absolute;
+  position: absolute;
+  bottom: 50%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.weathercard {
+  border: none;
+  padding: 0 2rem 2rem 2rem;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgba(110, 171, 221, 0.427);
+  
+}
+
+.title {
+  font-size: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(253, 253, 253);
+  height: 20px;
+  text-shadow: rgb(12, 11, 11) 1px 0 10px;
+}
+
+.subTitle {
+  font-size: 1.3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  height: 1px;
+  text-shadow: rgb(12, 11, 11) 1px 0 10px;
+}
+
+.temp {
+  font-size: 5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  height: 20px;
+  text-shadow: rgb(12, 11, 11) 1px 5px 10px;
+
+
+
+}
+
+.weatherCard-button {
+  border-color: gold;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.weatherCard-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  transition: 0.2;
+}
+
+.description{
+  text-transform: capitalize;
+  color: aliceblue;
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: rgb(0, 0, 0) 6px 0 10px;
+  list-style: none;
+  height: 50px;
+  
+  
+  
+}
+
+
+
+.weatherCard-body>ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.weatherCard-body>ul>li {
+  text-transform: capitalize;
+  color: aliceblue;
+  font-size: 1.3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: rgb(12, 11, 11) 1px 0 10px;
+  
+}
+
+.imagen {
+  height: 200px;
+
+}
+
+.divider {
+  color: rgb(222, 249, 12);
+  border-style: dotted;
+
+
+}
+
