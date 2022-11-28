@@ -99,6 +99,7 @@ body {
 }
 
 .description{
+  text-align: center;
   text-transform: capitalize;
   color: aliceblue;
   font-size: 2rem;

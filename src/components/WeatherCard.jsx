@@ -72,9 +72,9 @@ const WeatherCard = ({ weather, temperature, isCelsius, changeUnitTemperature,})
                 <div>
 
                     <img className="imagen" src={url} alt="" />
-                    <ul  >
-                    <li className="description" >{weather.weather[0].description}</li>
-                    </ul>
+                    
+                    <p className="description" >{weather.weather[0].description}</p>
+                    
                 </div>
                 <hr className="divider"/>
                 <ul>
