@@ -61,7 +61,7 @@ const WeatherCard = ({ weather, temperature, isCelsius, changeUnitTemperature,})
 
 
     return (
-        <article className="weathercard">
+        <article className="weathercard" >
            
 
             <h1 className="title">Weather App</h1>

@@ -4,14 +4,14 @@ body {
 
 }
 
-
+/*https://i.ibb.co/MkjWhXN/Dise-o-sin-t-tulo-18.png*/
 
 .app {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://i.ibb.co/MkjWhXN/Dise-o-sin-t-tulo-18.png" );
+  background-image: url("" );
   background-color: rgb(8, 103, 181);
 
 
@@ -51,6 +51,9 @@ body {
   text-align: center;
   border-radius: 20px;
   background-color: rgba(110, 171, 221, 0.427);
+  background-image: url("https://i.pinimg.com/originals/d8/56/e1/d856e18de495b7a084e7a2de516d7ec9.jpg");
+  background-repeat: no-repeat;
+ 
   
 }
 
@@ -87,15 +90,15 @@ body {
   border-radius: 10px;
   cursor: pointer;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  background-color: rgba(0, 0, 0, 0.4);
 
 
 }
 
 .weatherCard-button:hover {
   background-color: rgba(0, 0, 0, 0.1);
-  color: white;
-  transition: 0.2;
+  color: rgb(0, 0, 0);
+
 }
 
 .description{
@@ -123,10 +126,10 @@ body {
 
 .weatherCard-body>ul>li {
   text-transform: capitalize;
-  color: aliceblue;
+  color: rgb(20, 30, 161);
   font-size: 1.3rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: rgb(12, 11, 11) 1px 0 10px;
+  text-shadow: rgb(12, 11, 11) 1px 0 1px;
   
 }
 
