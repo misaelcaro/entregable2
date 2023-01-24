@@ -11,8 +11,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("" );
-  background-color: rgb(8, 103, 181);
+  background-image: url("https://i.ibb.co/MkjWhXN/Dise-o-sin-t-tulo-18.png");
+  background-color: rgb(159, 202, 238);
 
 
   background-position: center;
@@ -51,7 +51,7 @@ body {
   text-align: center;
   border-radius: 20px;
   background-color: rgba(110, 171, 221, 0.427);
-  background-image: url("https://i.pinimg.com/originals/d8/56/e1/d856e18de495b7a084e7a2de516d7ec9.jpg");
+  background-image: url("https://wallpaperaccess.com/full/888699.png");
   background-repeat: no-repeat;
  
   
@@ -76,7 +76,7 @@ body {
 .temp {
   font-size: 5rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
+  color: rgb(255, 255, 255);
   height: 20px;
   text-shadow: rgb(12, 11, 11) 1px 5px 10px;
 
@@ -85,12 +85,12 @@ body {
 }
 
 .weatherCard-button {
-  border-color: gold;
+  border-color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
 
 
 }
@@ -104,10 +104,10 @@ body {
 .description{
   text-align: center;
   text-transform: capitalize;
-  color: aliceblue;
+  color: rgb(231, 244, 255);
   font-size: 2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: rgb(0, 0, 0) 6px 0 10px;
+  text-shadow: rgb(12, 11, 11) 1px 5px 10px;
   list-style: none;
   height: 50px;
   
@@ -126,22 +126,26 @@ body {
 
 .weatherCard-body>ul>li {
   text-transform: capitalize;
-  color: rgb(20, 30, 161);
+  color: rgb(248, 248, 248);
   font-size: 1.3rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: rgb(12, 11, 11) 1px 0 1px;
+  text-shadow: rgb(12, 11, 11) 1px 5px 10px;
   
 }
 
 .imagen {
   height: 200px;
+  opacity: 0.9;
 
 }
 
 .divider {
-  color: rgb(222, 249, 12);
+  color: rgb(255, 255, 255);
   border-style: dotted;
 
 
 }
 
+
+
+/*https://i.pinimg.com/originals/d8/56/e1/d856e18de495b7a084e7a2de516d7ec9.jpg*/

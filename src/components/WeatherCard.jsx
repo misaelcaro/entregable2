@@ -88,7 +88,7 @@ const WeatherCard = ({ weather, temperature, isCelsius, changeUnitTemperature,})
             </section>
             <br />
             <br />
-            <button className="weatherCard-button" onClick={changeUnitTemperature}>Degrees °F/°C</button>
+            <button className="weatherCard-button" onClick={changeUnitTemperature}> Degrees °F/°C</button>
            
         </article>
             

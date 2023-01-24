@@ -2,6 +2,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import './App.css'
+
 import WeatherCard from './components/WeatherCard'
 
 
@@ -60,7 +61,7 @@ function App() {
 
 
     <div className="app" >
-      
+     
       {
 
         weather ? (
@@ -73,6 +74,7 @@ function App() {
         ) : <span className="spiner"></span>
 
       }
+
 
 
     </div>
